@@ -1,0 +1,18 @@
+package monisha23;
+
+public class Demo {
+	Demo()
+	{
+		System.out.println("abc");
+	}
+	Demo(int a)
+	{
+		System.out.println("  "+a);
+	}
+	public static void main(String[]args)
+	{
+		Demo bb = new Demo();
+		Demo kk = new Demo(34);
+	}
+
+}
